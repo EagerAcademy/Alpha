@@ -1,8 +1,11 @@
 # Alpha
 - accounts-password
+- accounts-ui
 - alanning:roles
 - aldeed:autoform
 - aldeed:collections2
 - kadira:blaze-layout
 - kadira:flow-router
+- twbs:bootstrap
 - underscore
+- useraccounts:core
