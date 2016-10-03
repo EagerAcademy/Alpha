@@ -23,6 +23,13 @@ FlowRouter.route('/login', {
     }
 });
 
+FlowRouter.route('/forgot', {
+    name: 'forgot',
+    action: function() {
+        BlazeLayout.render('ForgotLayout');
+    }
+});
+
 FlowRouter.route('/test', {
     name: 'test',
     action: function() {
