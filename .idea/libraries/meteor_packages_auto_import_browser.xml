@@ -128,6 +128,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/utility.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/throw-compile-error.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/autoform-validation.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/session/1.1.6/web.browser/session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/html-scanner-tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/autoform-inputs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/html-scanner.js" />
@@ -150,8 +151,14 @@
         <item url="file://$USER_HOME$/.meteor/packages/jquery/1.11.9/web.browser/main.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.13/web.browser/compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.13/web.browser/react.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_single.js" />
         <item url="file://$USER_HOME$/.meteor/packages/jquery/1.11.9/web.browser/jquery.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.13/web.browser/spacebars-runtime.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_dialogs.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_dropdown.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/accounts_ui.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.0.10/web.browser/url_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.0.10/web.browser/url_common.js" />
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.9/web.browser/post.js" />
@@ -472,6 +479,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/utility.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/throw-compile-error.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/autoform-validation.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/session/1.1.6/web.browser/session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/html-scanner-tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/autoform-inputs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.5/web.browser/html-scanner.js" />
@@ -494,8 +502,14 @@
       <root url="file://$USER_HOME$/.meteor/packages/jquery/1.11.9/web.browser/main.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.13/web.browser/compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.13/web.browser/react.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_single.js" />
       <root url="file://$USER_HOME$/.meteor/packages/jquery/1.11.9/web.browser/jquery.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.13/web.browser/spacebars-runtime.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_dialogs.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons_dropdown.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/accounts_ui.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.0.10/web.browser/url_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.0.10/web.browser/url_common.js" />
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.9/web.browser/post.js" />

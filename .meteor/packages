@@ -27,3 +27,4 @@ kadira:blaze-layout
 npm-bcrypt@0.8.7
 accounts-password
 useraccounts:core
+accounts-ui
