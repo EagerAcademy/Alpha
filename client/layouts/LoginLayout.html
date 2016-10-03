@@ -1,13 +1,93 @@
 <template name="LoginLayout">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="../images/EA_Logo.png">
-                </a>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .txtField {
+            font-size: 18pt;
+            height: 420px;
+            width: 200px;
+        }
+
+        .top-buffer {
+            margin-top: 15px;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <header><h1>Login to your Eager Academy Account</h1></header>
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+
+            </div>
+            <div class="col-xs-4">
+                <input type="text" name="username" placeholder="username/email"
+                       style="font-size:16pt;height:50px;width:450px;">
+            </div>
+            <div class="col-xs-4">
+                <span></span>
             </div>
         </div>
-    </nav>
+
+        <div class="row top-buffer"></div>
+
+        <div class="row">
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+            <div class="col-xs-4">
+                <input type="password" name="password" placeholder="password"
+                       style="font-size:16pt;height:50px;width:450px;">
+            </div>
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="row top-buffer"></div>
+
+        <div class="row">
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+            <div class="col-xs-4">
+                <button style="font-size:16pt;height:50px;width:450px;">Login</button>
+            </div>
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+            <div class="col-xs-2"><input type="checkbox">Remember Me</div>
+            <div class="col-xs-2 text-right">
+                <a href="MainLayout.html"><u>Forgot Password?</u></a>
+            </div>
+            <div class="col-xs-4">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--<nav class="navbar navbar-default navbar-fixed-top">-->
+    <!--<div class="container-fluid">-->
+    <!--<div class="navbar-header">-->
+    <!--<img alt="Brand" src="/public/images/EA_Logo.png">-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--</nav>-->
 
     <main>
         {{> Template.dynamic template=main}}
