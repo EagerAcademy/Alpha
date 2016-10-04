@@ -1,24 +1,29 @@
 <template name="HomeLayout">
-    <header>
-        <h1>Eager Academy</h1>
-    </header>
-    {{> loginButtons}}
-
     <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="images/EA_Logo.png">
-                </a>
+    <div class="row">
+        <nav class="navbar navbar-dark bg-primary navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/EA_Logo.png" alt="Agora" style="margin-top: -8px; max-height: 160%"/>
+                    </a>
+                    <!--<img src="images/EA_Logo.png" width="100" height="20">-->
+                    <!--<div class="pull-xs-right">-->
+                    <!---->
+                    <!--</div>-->
+                </div>
+
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+    <!--<h1>Eager Academy</h1>-->
+
+    {{> loginButtons}}
+    <!--<main>-->
+    <!--<div class="billboard">-->
+    <!--<h2>Student View-->
+    <!--</h2>-->
+    <!--</div>-->
+    <!--</main>-->
     </body>
-    <main>
-        <div class="billboard">
-            <h2>Student View
-            </h2>
-        </div>
-    </main>
 </template>
