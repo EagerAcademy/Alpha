@@ -30,6 +30,13 @@ FlowRouter.route('/forgot', {
     }
 });
 
+FlowRouter.route('/thankyou', {
+    name: 'thankyou',
+    action: function() {
+        BlazeLayout.render('ThankYouLayout');
+    }
+});
+
 FlowRouter.route('/test', {
     name: 'test',
     action: function() {
