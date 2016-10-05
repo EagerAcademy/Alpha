@@ -1,8 +1,5 @@
-<template name="ForgotLayout">
+<template name="ThankYouLayout">
     <style>
-        h1 {
-            text-align: center;
-        }
 
         .txtField {
             font-size: 18pt;
@@ -24,17 +21,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-2"></div>
-
-            <div class="col-xs-8">
-                <header>
+            <div class="col-xs-3">
                     <h1>
-                        Reset Your Password
+                        Thank you
                     </h1>
-                </header>
             </div>
 
-            <div class="col-xs-2"></div>
+            <div class="col-xs-2">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size:50pt; color:limegreen;"></span>
+            </div>
+
+            <div class="col-xs-6"></div>
         </div>
 
         <div class="row">
@@ -76,7 +73,7 @@
 
                     <div class="row top-buffer"></div>
 
-                    <button onclick="location.href = '/thankyou';" style="font-size:9pt;height:30px;width:150px;">Send Confirmation Email</button>
+                    <button style="font-size:9pt;height:30px;width:150px;">Send Confirmation Email</button>
 
                     <div class="row top-buffer"></div>
                 </div>
