@@ -1,5 +1,12 @@
 <template name="ThankYouLayout">
     <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
 
         .txtField {
             font-size: 18pt;
@@ -19,19 +26,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-3">
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+
+            <div class="col-xs-2"></div>
+
+            <div class="col-xs-5">
                     <h1>
                         Thank you
                     </h1>
             </div>
-
             <div class="col-xs-2">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size:50pt; color:limegreen;"></span>
+                <div class="col-xs-2">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="font-size:50pt; color:limegreen;"></span>
+                </div>
             </div>
 
-            <div class="col-xs-6"></div>
+            <div class="col-xs-2"></div>
         </div>
 
         <div class="row">
@@ -40,26 +63,29 @@
             </div>
         </div>
 
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+
         <div class="row">
-            <div class="col-xs-12">
-                <div class="row">
-                    If the email address associated with your account is in our records, you will receive an email from us with password reset instructions.
-                </div>
-
-                <div class="row top-buffer"></div>
-
-                <div class="row">
-                    <button onclick="location.href = '/login';" style="font-size:9pt;height:30px;width:150px;">Login Again</button>
-                </div>
-
-            </div>
-
-
-
             <div class="col-xs-4">
-                <span></span>
+            </div>
+            <div class="col-xs-6">
+                <button style="font-size:16pt;height:50px;width:450px;" onclick="location.href = '/login';">LOGIN</button>
+            </div>
+            <div class="col-xs-2">
             </div>
         </div>
     </div>
 
 </template>
+

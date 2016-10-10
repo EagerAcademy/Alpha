@@ -4,6 +4,10 @@
             text-align: center;
         }
 
+        p {
+            text-align: center;
+        }
+
         .txtField {
             font-size: 18pt;
             height: 420px;
@@ -22,14 +26,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+            <div class="row top-buffer"></div>
+
             <div class="col-xs-2"></div>
 
             <div class="col-xs-8">
                 <header>
                     <h1>
-                        Reset Your Password
+                        Reset your password?
                     </h1>
                 </header>
             </div>
@@ -44,48 +61,52 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-7">
-                <div class="row">
-                    Please provide the username or email address that you used when you signed up for your Eager Academy
-                    account.
-                </div>
-
-                <div class="row top-buffer"></div>
-
-                <div class="row">
-                    We will send you an email that will allow you to reset your password.
-                </div>
+            <div class="col-xs-2">
 
             </div>
-
-
-            <div class="col-xs-5 border">
-                <div class="col-xs-1"></div>
-
-                <div class="col-xs-10">
-                    <div class="row top-buffer"></div>
-
-                    <div class="row">
-                        Email Address or Username
-                    </div>
-
-                    <div class="row">
-                        <input type="text" name="username"
-                               style="font-size:14pt;height:30px;width:350px;">
-                    </div>
-
-                    <div class="row top-buffer"></div>
-
-                    <button onclick="location.href = '/thankyou';" style="font-size:9pt;height:30px;width:150px;">Send Confirmation Email</button>
-
-                    <div class="row top-buffer"></div>
-                </div>
-
-                <div class="col-xs-1"></div>
+            <div class="col-xs-8">
+                <p>Please provide the username or email address that you used when you signed up for your Eager Academy Account.</p>
             </div>
+            <div class="col-xs-2">
+            </div>
+        </div>
 
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+
+        <div class="row">
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-8">
+                <p>We will send you an email that will allow you to reset your password.</p>
+            </div>
+            <div class="col-xs-2">
+            </div>
+        </div>
+
+        <div class="row top-buffer"></div>
+        <div class="row top-buffer"></div>
+
+        <div class="row">
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-8">
+                <p><input type="text" name="username" placeholder="username or email address"
+                       style="font-size:16pt;height:50px;width:450px;"></p>
+            </div>
+            <div class="col-xs-2">
+            </div>
+        </div>
+
+        <div class="row">
             <div class="col-xs-4">
-                <span></span>
+            </div>
+            <div class="col-xs-6">
+                <button style="font-size:16pt;height:50px;width:450px;" onclick="location.href = '/login';">SEND CONFIRMATION EMAIL</button>
+            </div>
+            <div class="col-xs-2">
             </div>
         </div>
     </div>

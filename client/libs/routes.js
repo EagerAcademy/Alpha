@@ -43,3 +43,10 @@ FlowRouter.route('/test', {
         BlazeLayout.render('LoginLayout', {main:'Test'});
     }
 });
+
+FlowRouter.route('/resetpassword', {
+    name: 'resetpassword',
+    action: function() {
+        BlazeLayout.render('ResetPasswordLayout');
+    }
+});
