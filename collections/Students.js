@@ -15,3 +15,5 @@ StudentSchema = new SimpleSchema({
     },
 
 });
+
+Template.ForgotLayout.;
