@@ -119,7 +119,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/insert.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.3.1/web.browser/sockjs-0.3.4.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/normal.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dburles_factory/1.1.0/web.browser/factory.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/method.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dburles_factory/1.1.0/web.browser/factory_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/update-pushArray.js" />
         <item url="file://$USER_HOME$/.meteor/packages/autoupdate/1.3.11/web.browser/autoupdate_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/readonly.js" />
@@ -472,7 +474,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/insert.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.3.1/web.browser/sockjs-0.3.4.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/normal.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dburles_factory/1.1.0/web.browser/factory.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/method.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dburles_factory/1.1.0/web.browser/factory_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/update-pushArray.js" />
       <root url="file://$USER_HOME$/.meteor/packages/autoupdate/1.3.11/web.browser/autoupdate_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/formTypes/readonly.js" />

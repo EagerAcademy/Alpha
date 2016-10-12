@@ -29,3 +29,4 @@ accounts-password
 useraccounts:core
 accounts-ui
 twbs:bootstrap
+dburles:factory
