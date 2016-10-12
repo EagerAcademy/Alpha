@@ -1,7 +1,7 @@
 /**
  * Created by GWFreak01 on 10/11/16.
  */
-import {Students} from '../../imports/api/students/students.js';
+// import {Students} from '../../imports/api/students/students.js';
 
 Meteor.subscribe('Students');
 
