@@ -1,9 +1,9 @@
 import { Meteor } from 'meteor/meteor';
-import { Factory } from 'meteor/factory';
-import { PublicationCollector } from 'meteor/johanbrook:publication-collector';
-import { chai, assert } from 'meteor/practicalmeteor:chai';
-import { Random } from 'meteor/random';
-import { _ } from 'meteor/underscore';
+// import { Factory } from 'meteor/dburles:factory';
+// import { PublicationCollector } from 'meteor/johanbrook:publication-collector';
+// import { chai, assert } from 'meteor/practicalmeteor:chai';
+// import { Random } from 'meteor/random';
+// import { _ } from 'meteor/underscore';
 
 import { Students } from './students.js';
 

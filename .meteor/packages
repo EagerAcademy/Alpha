@@ -30,3 +30,8 @@ useraccounts:core
 accounts-ui
 twbs:bootstrap
 dburles:factory
+aldeed:simple-schema
+mdg:validated-method
+ddp-rate-limiter
+johanbrook:publication-collector
+practicalmeteor:chai
