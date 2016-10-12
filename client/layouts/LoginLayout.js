@@ -11,8 +11,12 @@ Template.LoginLayout.events({
         event.preventDefault();
         var usernameVar = event.target.username.value;
         var passwordVar = event.target.password.value;
-        if (Student.findOne({email: usernameVar}, {password: passwordVar})){
-            FlowRouter.route('/home');
-        }
+
+        console.log(usernameVar);
+        console.log(passwordVar);
+        // WAITING FOR SWITZ
+        // if (Student.findOne({email: usernameVar}, {password: passwordVar})){
+        //     FlowRouter.route('/home');
+        // }
     }
 });
