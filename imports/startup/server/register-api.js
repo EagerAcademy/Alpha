@@ -5,7 +5,7 @@
 import '../../api/courses/methods.js';
 import '../../api/courses/server/publications.js';
 import '../../api/students/methods.js';
-import '../../api/sutdents/server/publications.js';
+import '../../api/students/server/publications.js';
 import '../../api/teachers/methods.js';
 import '../../api/teachers/server/publications.js';
 import '../../api/assignments/methods.js';
