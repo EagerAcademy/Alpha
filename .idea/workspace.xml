@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd3c265c-3bdf-46e3-9cd2-02a062ae2222" name="Default" comment="Pushed to Master-us111111">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Alpha.iml" afterPath="$PROJECT_DIR$/.idea/Alpha.iml" />
+    <list default="true" id="dd3c265c-3bdf-46e3-9cd2-02a062ae2222" name="Default" comment="Removed import from login">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/layouts/LoginLayout.js" afterPath="$PROJECT_DIR$/client/layouts/LoginLayout.js" />
     </list>
     <ignored path="Alpha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="LoginLayout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/layouts/LoginLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -108,6 +106,7 @@
               <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding>
                 <element signature="e#273#314#0" expanded="true" />
+                <marker date="1476312584000" expanded="true" signature="40:271" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -432,7 +431,7 @@
       <workItem from="1476228148172" duration="6514000" />
       <workItem from="1476237365182" duration="3253000" />
       <workItem from="1476308808566" duration="1263000" />
-      <workItem from="1476311022524" duration="916000" />
+      <workItem from="1476311022524" duration="1039000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Folder Structures">
       <created>1475423456909</created>
@@ -539,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476237613160</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Removed import from login">
+      <created>1476312492423</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1476312492423</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44788000" />
+    <option name="totallyTimeSpent" value="44911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +562,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.49612403" order="7" side_tool="false" content_ui="tabs" />
@@ -624,7 +630,8 @@
     <MESSAGE value="Stable Version. Testing DB" />
     <MESSAGE value="Pushed to Master?" />
     <MESSAGE value="Pushed to Master-us111111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed to Master-us111111" />
+    <MESSAGE value="Removed import from login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed import from login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -879,9 +886,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,6 +904,7 @@
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding>
             <element signature="e#273#314#0" expanded="true" />
+            <marker date="1476312584000" expanded="true" signature="40:271" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -971,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/layouts/LoginLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
