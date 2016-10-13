@@ -9,3 +9,22 @@
 - twbs:bootstrap
 - underscore
 - useraccounts:core
+
+# Bin's
+- underscore
+- aldeed:collection2
+- aldeed:autoform
+- alanning:roles
+- kadira:flow-router
+- kadira:blaze-layout
+- npm-bcrypt@0.8.7
+- accounts-password
+- useraccounts:core
+- accounts-ui
+- twbs:bootstrap
+- dburles:factory
+- aldeed:simple-schema
+- mdg:validated-method
+- ddp-rate-limiter
+- johanbrook:publication-collector
+- practicalmeteor:chai
