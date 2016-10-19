@@ -86,52 +86,6 @@ a:hover {
   margin: 0 auto;
   padding: 0 30px; }
 
-/* =Top Bar
--------------------------------------------------------------- */
-#top-bar {
-  background-color: #950025; }
-
-#top-bar a {
-  color: white;
-  font-size: 14px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0;
-  padding: 10px; }
-
-#top-bar a:hover {
-  background-color: #7c001f; }
-
-span.all-labs,
-span.back-to-tutorial {
-  display: block;
-  width: 50%; }
-
-span.all-labs {
-  float: left;
-  text-align: left; }
-
-span.back-to-tutorial {
-  float: right;
-  text-align: right; }
-
-/* =Header
--------------------------------------------------------------- */
-header {
-  padding: 30px 0; }
-
-#title {
-  text-align: center; }
-
-#title h1 {
-  color: #fff;
-  font-size: 30px;
-  margin-bottom: 10px; }
-
-#title h2 {
-  color: #ff4976;
-  font-size: 20px; }
-
 /* =Footer
 -------------------------------------------------------------- */
 /* =Extras
